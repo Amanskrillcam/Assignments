@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="14.66367">
+<testcase classname="Checking login Functionality of Orange HRM" name="Checking user login with valid credentials" time="14.641935">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user is clicking on forgot password button.............................passed
+Then user enters username in username textbox...............................passed
+Then user enters password in password textbox...............................passed
+When user clicks on login button............................................passed
+Then user is on Homepage....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checking homepage functionality" name="Checking homepage icons are working" time="0.021735">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at StepDefinations.Homepagedef.user_is_on_Homepage(Homepagedef.java:55)&#13;&#10;&#9;at ✽.user is at Homepage(C:/Users/AmanShukla/IdeaProjects/BDDCucumberDemo/src/test/java/Featurefile/homepage.feature:5)&#13;&#10;"><![CDATA[Given user is at Homepage...................................................failed
+When user clicks on admin button............................................skipped
+When user clicks on PIM button..............................................skipped
+When user clicks on leave button............................................skipped
+When user clicks on time button.............................................skipped
+When user clicks on recruitment button......................................skipped
+When user clicks on Myinfo button...........................................skipped
+When user clicks on performance button......................................skipped
+When user clicks on Dashboard button........................................skipped
+Then user is logging out....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at StepDefinations.Homepagedef.user_is_on_Homepage(Homepagedef.java:55)
+	at ✽.user is at Homepage(C:/Users/AmanShukla/IdeaProjects/BDDCucumberDemo/src/test/java/Featurefile/homepage.feature:5)
+]]></failure>
+</testcase>
+</testsuite>

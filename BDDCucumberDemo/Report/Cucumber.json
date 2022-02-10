@@ -1,0 +1,237 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Checking user login with valid credentials",
+        "description": "",
+        "id": "checking-login-functionality-of-orange-hrm;checking-user-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8223949300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginDef.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1138009000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is clicking on forgot password button",
+            "match": {
+              "location": "LoginDef.user_is_clicking_on_forgot_password_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95006500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username in username textbox",
+            "match": {
+              "location": "LoginDef.user_enters_username_in_username_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72871200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters password in password textbox",
+            "match": {
+              "location": "LoginDef.user_enters_password_in_password_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5101512300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginDef.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8743600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on Homepage",
+            "match": {
+              "location": "LoginDef.user_is_on_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking login Functionality of Orange HRM",
+    "description": "",
+    "id": "checking-login-functionality-of-orange-hrm",
+    "keyword": "Feature",
+    "uri": "C:/Users/AmanShukla/IdeaProjects/BDDCucumberDemo/src/test/java/Featurefile/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Checking homepage icons are working",
+        "description": "",
+        "id": "checking-homepage-functionality;checking-homepage-icons-are-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat StepDefinations.Homepagedef.user_is_on_Homepage(Homepagedef.java:55)\r\n\tat ✽.user is at Homepage(C:/Users/AmanShukla/IdeaProjects/BDDCucumberDemo/src/test/java/Featurefile/homepage.feature:5)\r\n",
+              "duration": 19300700,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user is at Homepage",
+            "match": {
+              "location": "Homepagedef.user_is_on_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8500,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user clicks on admin button",
+            "match": {
+              "location": "Homepagedef.validateAdminModule()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user clicks on PIM button",
+            "match": {
+              "location": "Homepagedef.validatePim()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user clicks on leave button",
+            "match": {
+              "location": "Homepagedef.validateleave()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3300,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user clicks on time button",
+            "match": {
+              "location": "Homepagedef.validatetime()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3200,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user clicks on recruitment button",
+            "match": {
+              "location": "Homepagedef.validaterecruitment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3200,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user clicks on Myinfo button",
+            "match": {
+              "location": "Homepagedef.validatemyinfo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3100,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user clicks on performance button",
+            "match": {
+              "location": "Homepagedef.validateperformance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3200,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user clicks on Dashboard button",
+            "match": {
+              "location": "Homepagedef.validatedashboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3100,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user is logging out",
+            "match": {
+              "location": "Homepagedef.logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking homepage functionality",
+    "description": "",
+    "id": "checking-homepage-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/AmanShukla/IdeaProjects/BDDCucumberDemo/src/test/java/Featurefile/homepage.feature",
+    "tags": []
+  }
+]
