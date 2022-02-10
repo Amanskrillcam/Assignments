@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         (
                 features = {"C:\\Users\\AmanShukla\\IdeaProjects\\BDDCucumberDemo\\src\\test\\java\\Featurefile"},
                 glue = {"StepDefinations"},
-//                dryRun = true,
+                dryRun = false,
                 monochrome = true,
 //                strict = true
                 plugin = {"pretty","json:Report/Cucumber.json","junit:Report/XMLReport.xml",
